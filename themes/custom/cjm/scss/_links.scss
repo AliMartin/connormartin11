@@ -1,0 +1,9 @@
+a {
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+}
+
+.toolbar-tab a,
+ul.contextual-links a {
+  font-weight: normal !important;
+}

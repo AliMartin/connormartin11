@@ -1,0 +1,22 @@
+uuid: d0cb2a73-ad80-4f88-bc7a-8184baab78e4
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - cjm
+_core:
+  default_config_hash: uzOOxvR9t0IJCpEksgFRnzY1vi4HWad4BcvzFiMLuag
+id: cjm_local_tasks
+theme: cjm
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

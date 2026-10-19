@@ -1,0 +1,22 @@
+uuid: 7a59a983-502d-4d25-8161-de374c6b6960
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cjm
+_core:
+  default_config_hash: uad-1ixDyyzb5_5LKuXu1wQlh8-SOfLhE5uRrsu9uIE
+id: cjm_messages
+theme: cjm
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

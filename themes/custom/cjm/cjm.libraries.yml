@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+maintenance:
+  css:
+    theme:
+      css/maintenance.css: {}

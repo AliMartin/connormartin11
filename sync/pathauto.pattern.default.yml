@@ -1,0 +1,25 @@
+uuid: f8f5544d-8b70-49ca-aff5-2b43800ff3a3
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+  module:
+    - node
+id: default
+label: Default
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  f069dd78-0439-4c9a-a9b7-635ded923686:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,46 @@
+{# A dedicated maintenance layout, with photography from the trackside journal. #}
+{{ attach_library('cjm/maintenance') }}
+<div class="cjm-maintenance">
+  <header class="cjm-maintenance__header" role="banner">
+    <a class="cjm-maintenance__brand" href="{{ front_page }}" rel="home">
+      <span class="cjm-maintenance__monogram" aria-hidden="true">CM<span>.</span></span>
+      <span class="cjm-maintenance__identity">
+        <span class="cjm-maintenance__name">{{ site_name }}</span>
+        {% if site_slogan %}<span class="cjm-maintenance__slogan">{{ site_slogan }}</span>{% endif %}
+      </span>
+    </a>
+    <span class="cjm-maintenance__header-note">{{ 'A little time in the workshop'|t }}</span>
+  </header>
+
+  <main class="cjm-maintenance__main" id="main-content" tabindex="-1">
+    <section class="cjm-maintenance__copy" aria-labelledby="maintenance-heading">
+      <p class="cjm-maintenance__status"><span aria-hidden="true"></span>{{ 'In the pits'|t }}</p>
+      <h1 id="maintenance-heading">{{ 'A quick'|t }}<br><span>{{ 'pit stop.'|t }}</span></h1>
+      <p class="cjm-maintenance__intro">{{ 'Fine-tuning things behind the scenes.'|t }}</p>
+      <div class="cjm-maintenance__message">{{ page.highlighted }}{{ page.content }}</div>
+      <a class="cjm-maintenance__return" href="{{ front_page }}">
+        {{ 'Check back in'|t }} <span aria-hidden="true">↗</span>
+      </a>
+      <div class="cjm-maintenance__interests" aria-label="{{ 'From the journal'|t }}">
+        <span>{{ 'Historic racing'|t }}</span><span>{{ 'Hands-on engineering'|t }}</span><span>{{ 'Trackside stories'|t }}</span>
+      </div>
+    </section>
+
+    <figure class="cjm-maintenance__photo">
+      <img src="{{ base_path ~ directory }}/images/maintenance-goodwood.jpeg"
+        alt="{{ 'A white and blue Alfa Romeo race car on the circuit at Goodwood.'|t }}"
+        width="1561" height="1022" fetchpriority="high">
+      <span class="cjm-maintenance__photo-index" aria-hidden="true">01 / TRACKSIDE</span>
+      <figcaption>
+        <span class="cjm-maintenance__photo-label">{{ 'From the trackside journal'|t }}</span>
+        <span class="cjm-maintenance__photo-title">{{ 'Built for the next lap.'|t }}</span>
+        <span class="cjm-maintenance__photo-location">{{ 'Goodwood Motor Circuit'|t }}</span>
+      </figcaption>
+    </figure>
+  </main>
+
+  <footer class="cjm-maintenance__footer" role="contentinfo">
+    <span>© {{ 'now'|date('Y') }} {{ site_name }}</span>
+    <span class="cjm-maintenance__footer-note">{{ 'Back on track soon.'|t }} <span aria-hidden="true">↗</span></span>
+  </footer>
+</div>

@@ -1,0 +1,20 @@
+uuid: 86d6d6c5-6337-4db5-8868-3a6b2a2c1359
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - cjm
+_core:
+  default_config_hash: A_4ZISEE7hoSw_eEQGvp0_WLz9T_ykHYbYjmq48NguE
+id: cjm_page_title
+theme: cjm
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,145 @@
+
+
+
+
+// Hide the original H1
+.page-node-type-article,
+.page-node-type-blog {
+  main[role=main] {
+    #block-cjm-page-title {
+      display: none;
+    }
+  }
+}
+
+
+// Blog page view
+#block-cjm-content .view-blog {
+  line-height: 1.2;
+
+  .view-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .views-field-field-image {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  
+    img {
+      border-radius: $border-radius;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      float: inherit;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  .views-field-title {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    font-size: xx-large;
+    margin-bottom: 5px;
+  }
+
+  .views-field-created {
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+
+  .views-field-body {
+    margin-bottom: 5px;
+  }
+}
+
+
+
+// Sidebar
+.region-sidebar-second {
+  background-color: $gray-200;
+  background-color: rgba(59, 113, 202, 0.3);
+  border-radius: $border-radius;
+  padding: 15px;
+  line-height: 1.3;
+
+  .views-row {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: xx-large;
+    margin-bottom: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    margin-bottom: 15px;
+  }
+
+  .views-field-title {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    font-size: x-large;
+    margin-bottom: 5px;
+  }
+
+  .views-field-created {
+    font-size: medium;
+    margin-bottom: 5px;
+  }
+
+  .views-field-body {
+    font-size: large;
+  }
+}
+
+
+// Body
+main[role=main] .node__content .field--name-body {
+  max-width: 700px;
+}
+
+
+// Created date
+.field--name-created,
+.views-field-created {
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.field--name-created {
+  margin-bottom: 2rem;
+}
+
+
+// Banner image
+.field--name-field-image {
+  margin-bottom: 2rem;
+  img {
+    border-radius: $border-radius;
+  }
+}
+
+
+// Inline images
+.field--name-body {
+  > img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+.page-node-type-blog {
+}

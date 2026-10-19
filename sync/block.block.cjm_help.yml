@@ -1,0 +1,22 @@
+uuid: 463a3a29-048c-4146-bf60-f65eb39ebd18
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cjm
+_core:
+  default_config_hash: ojeQkeJCXU_S1iL2IYpKbjGl105egR_clpgUvm4hUCM
+id: cjm_help
+theme: cjm
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

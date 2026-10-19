@@ -1,0 +1,25 @@
+uuid: 9608c6ba-c1db-481e-bbee-97842e73263f
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cjm
+_core:
+  default_config_hash: HBrztYnHBfjrw5wsqFFmASsDBmgb47-z6mQ6gDUrllY
+id: cjm_branding
+theme: cjm
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

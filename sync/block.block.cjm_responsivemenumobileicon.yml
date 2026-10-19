@@ -1,0 +1,20 @@
+uuid: 813e594d-9a8d-4151-a63f-01a5dbcf1173
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - cjm
+id: cjm_responsivemenumobileicon
+theme: cjm
+region: nav_additional
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: visible
+  provider: responsive_menu
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 46ab0186-25ee-4de9-b0a5-1edd0f1718c8
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cjm
+_core:
+  default_config_hash: TKMTr_wHAkbEC213P11_IwBEbeFDd-NlIB7brjb1TeY
+id: cjm_content
+theme: cjm
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

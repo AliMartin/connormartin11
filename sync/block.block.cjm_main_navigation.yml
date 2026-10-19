@@ -1,0 +1,27 @@
+uuid: 293f91e1-0804-45b7-945e-18653b21d340
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cjm
+_core:
+  default_config_hash: upmeYDYpQTsXwZrbWYB2EW0u5f-AuZBeY7g_2vpHbIc
+id: cjm_main_navigation
+theme: cjm
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 52771016-1bc5-4f1c-9e16-3400afbbf0b7
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - cjm
+_core:
+  default_config_hash: OsvGWnE6giBQM_1LzI_jkTzWfjj7FIxGasgp_IAlevY
+id: cjm_local_actions
+theme: cjm
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

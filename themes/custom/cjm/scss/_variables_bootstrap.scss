@@ -1,0 +1,50 @@
+// Bootstrap variables (overrides).
+$form-text-margin-top: 0;
+$legend-font-size: 1rem;
+$table-cell-padding-x: .75rem;
+
+
+
+// Colours
+$primary:     #3B71CA !default;
+$secondary:   #9FA6B2 !default;
+$success:     #14A44D !default;
+$info:        #54B4D3 !default;
+$warning:     #E4A11B !default;
+$danger:      #DC4C64 !default;
+$light:       #FBFBFB !default;
+$black:       #332D2D !default;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "black":      $black,
+);
+
+// Fonts
+$font-family-sans-serif: "Quattrocento Sans", sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1.2rem;
+$line-height-base: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$body-color: $black;
+
+$headings-font-family: "PT Sans Narrow", sans-serif;
+$headings-font-weight: 700;
+$headings-color: $black;
+
+// Hyperlinks
+$link-color: $black;
+$link-decoration: underline;
+$link-hover-color: $primary;
+$link-hover-decoration: underline;
+
+// Image border radius
+$border-radius: 6px;
